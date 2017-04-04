@@ -1,0 +1,347 @@
+* {
+  margin: 0;
+  padding: 0;
+} 
+
+a{
+    color: red;
+    text-decoration: none;
+}
+
+body {
+    position: relative;
+    height: 100%;
+}
+
+.container{
+    height: 100%;
+    margin: auto;
+    width: 70%;
+}
+
+#logo{
+    margin-top: 4px;
+}
+        
+header{
+    position: fixed;
+    z-index: 1;
+    width:100%;
+    background-color:white;
+    height:auto;
+    box-shadow: 0 0 20px #000;
+}
+
+nav{
+    float: right;
+}
+
+nav ul{
+    margin-top: 23px;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-left: 20px;
+    list-style: none;
+}
+
+nav ul li a{
+    font-weight: 400;
+    color: black;
+    font-family: arial, helvetica;
+    font-size: 14px;
+}
+
+nav ul li a:hover {
+    -webkit-transform: scale(2);
+    -webkit-transition: all 0.2s ease-in-out;
+    color: red;
+}
+
+#backimg{
+    padding-top: 60px;
+    height: 350px;
+    background-color: #222;
+}
+
+#buttons{
+    position: relative;
+    margin: auto;
+    width: 100%;
+    margin-top: 20PX;
+    margin-bottom: 20PX;
+}
+
+#profile, #media, #contact{
+    display: inline-block;
+    color: black;
+    font-family: arial;
+    text-align: center;
+    position: relative;
+    margin: auto 8% ;
+}
+
+#h1bio{
+    clear: both;
+    color: crimson;
+    font-size: 30px;
+    padding: 10px 0px;
+    font-family: sans-serif;
+}
+
+#buttonssection{
+    background-color: azure;
+}
+
+#namessection{
+    background-color: azure;
+}
+
+#skillssection{
+    padding-bottom: 20px;
+    background-color: azure;
+}
+
+#profilepic {
+    width: 49%;
+    font-family: arial;
+    text-align: center;
+    display: inline-block;
+    
+}
+
+#profilepic img{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-right: 70px;
+}
+
+#bio {
+    width: 49%;
+	display: inline-block;
+}
+
+#bio p{
+    color: black;
+    font-family: arial;
+    text-align: left;
+}
+
+#bio h3{
+    color: black;
+    font-family: arial;
+    text-align: left;
+}
+
+#h1skill{
+    clear: both;
+    color: crimson;
+    font-size: 30px;
+    padding: 10px 0px;
+    font-family: sans-serif;
+}
+
+.skills, p{
+    text-align: right;
+    padding-right: 20px;
+    line-height: 20px; 
+    color: white;
+}
+
+.skills, h2 {
+    text-align: left;
+    font-size: 20px;
+    font-family: arial;
+    line-height: 40px; 
+    color: black;
+}
+
+.html {
+    width: 90%; 
+    background-color: #4CAF50;
+}
+.css {
+    width: 80%; 
+    background-color: #2196F3;
+}
+.js {
+    width: 65%; 
+    background-color: #f44336;
+}
+
+.php {
+    width: 60%; 
+    background-color: #808080;
+}
+
+#footertext p{
+    font-family: arial;
+    color: white;
+    text-align: left;
+    height: 180px;
+}
+
+#footertext {
+    width: 30%;
+    float: left;
+    height: 100%;
+}
+
+#footertext2 p{
+    font-family: arial;
+    color: white;
+    text-align: center;
+}
+
+#footertext2 {
+    width: 30%;
+    float: left;
+    height: 100%;
+}
+
+#footertext3 p{
+    font-family: arial;
+    color: white;
+    text-align: right;
+}
+
+#footertext3 {
+    text-align: right;
+    width: 30%;
+    float: right;
+    height: 100%;
+}
+
+#h1gal{
+    color: crimson;
+    font-size: 30px;
+    padding: 10px 0px;
+    font-family: sans-serif;
+}
+
+#pics{
+    background-color: #999;
+}
+
+#h1gal2{
+    color: crimson;
+    font-size: 30px;
+    padding: 10px 0px;
+    font-family: sans-serif;
+}
+
+#pics2{
+    background-color: #999;
+}
+
+#h1gal3{
+    color: crimson;
+    font-size: 30px;
+    padding: 10px 0px;
+    font-family: sans-serif;
+}
+
+#pics3{
+    background-color: #999;
+}
+
+#picimg3 img, #picimg2 img, #picimg img{
+    display: inline-block;
+    font-size: 0px;
+    width: 270px;
+    height: 270px;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+}
+
+#video{
+    padding-top: 10px;
+    background-color: #999;
+    height: 100%;
+}
+
+#video1, #video2, #video3,#video4, #video5, #video6{
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 10px;
+    display: inline-block;
+    width: 29%;
+}
+
+#h1resume{
+    text-align: center;
+    clear: both;
+    color: crimson;
+    font-size: 30px;
+    padding: 10px 0px;
+    font-family: sans-serif;
+}
+
+#resumeinfo{
+    margin: auto;
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+    transform: scale(1,1);
+    transition: ease in-out .3s;
+}
+
+#resumeinfo: hover{
+    margin: auto;
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+    transform: scale(1,4);
+    transition: ease in-out .3s;
+}
+
+#contactpic{
+    float: left;
+}
+
+#contactpic2 {
+    margin-left: 400px;
+    text-align: center;
+}
+
+#form {
+    margin-top: 30px;
+    font-family: arial;
+    background-color: azure;
+    clear: both;
+}
+
+#formbox{
+    margin: auto;
+    width: 30%;
+    display: inline-block;
+}
+
+#contentinfo p{
+    font-family: arial;
+    text-align: center;
+    width: 100%;
+    color: black;
+    display: inline-block;
+}
+
+#contactlinks{
+    margin: auto;
+    display: inline-block;
+}
+
+footer{
+    position: absolute;
+    clear: both;
+    width:100%;
+    background-color:#222;
+}
